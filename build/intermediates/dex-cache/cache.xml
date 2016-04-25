@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\andreas\Dropbox\Kod\android\DiceCounter\app\build\intermediates\pre-dexed\debug\classes-11a72693529c6c82366cd208d9a6ffc0b48a0059.jar"
+        jar="C:\Users\andreas\Dropbox\Kod\android\DiceCounter\build\intermediates\exploded-aar\DiceCounter\opencv\unspecified\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e046ce3897809452fdf2bb939792ba64cdd145de"/>
+
+</pre-dex-items>
