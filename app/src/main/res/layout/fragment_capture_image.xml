@@ -1,0 +1,45 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discard"
+            android:id="@+id/buttonDiscard"
+            android:layout_weight="1" />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adjust result"
+        android:id="@+id/buttonAdjust"
+        android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/buttonSave"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/imageViewDice"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/buttonCapImage"
+        android:adjustViewBounds="true" />
+
+</LinearLayout>
